@@ -1,0 +1,14 @@
+NETLIST GRADATEUR_AVEC_DE_CAP - extrait du .pdsprj (decodage binaire, sans Proteus)
+
+composants 10   fils 21   broches 21   nets 7
+terminaux 0 -> 0 nets nommes (0 hors fil, 0 sans nom)   amperemetres court-circuites 0
+
+============================================================
+
+NET 1              ( 5)  $IOS?11-1  ALTE?2-2  C1-2  C2-1  U1-2
+NET 2              ( 3)  $IOS?11-2  ALTE?2-1  L1-2
+NET 3              ( 3)  L1-1  R1-2  U1-1
+NET 4              ( 3)  C1-1  R2-1  RV1-1
+NET 5              ( 3)  C2-2  D1-A  R2-2
+NET 6              ( 2)  R1-1  RV1-2
+NET 7              ( 2)  D1-K  U1-3

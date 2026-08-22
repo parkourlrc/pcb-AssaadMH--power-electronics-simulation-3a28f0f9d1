@@ -1,0 +1,83 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-12T17:51:12",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "TACHYM.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Zone [GND] sur B.Cu, priorité 0",
+                    "pos": {
+                        "x": 0.45,
+                        "y": 0.45
+                    },
+                    "uuid": "b6cbd5cc-3e46-495b-be4d-157ad9647629"
+                },
+                {
+                    "description": "Zone [GND] sur F.Cu, priorité 0",
+                    "pos": {
+                        "x": 0.45,
+                        "y": 0.45
+                    },
+                    "uuid": "656ad090-b063-4d9c-8ef6-81958d6e48d6"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad métallisé 2 [N005] de RV1",
+                    "pos": {
+                        "x": 60.034155,
+                        "y": 40.965849
+                    },
+                    "uuid": "d3437c78-379a-4754-b633-f34fd23752aa"
+                },
+                {
+                    "description": "Pad métallisé 1 [N005] de R2",
+                    "pos": {
+                        "x": 54.818412,
+                        "y": 47.474701
+                    },
+                    "uuid": "99bfbebe-225f-4aaf-b8bd-746c0b68f9f9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

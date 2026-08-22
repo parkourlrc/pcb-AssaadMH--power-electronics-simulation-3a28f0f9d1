@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-12T17:56:18",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "GRADATEUR_AVEC_DE_CAP.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad métallisé 2 [N001] de U1",
+                    "pos": {
+                        "x": 23.84736,
+                        "y": 18.170559
+                    },
+                    "uuid": "1a1d864c-3e98-4e6e-a09f-7a269d10bea5"
+                },
+                {
+                    "description": "Piste [N001] sur F.Cu, long. 1,7500 mm",
+                    "pos": {
+                        "x": 12.5,
+                        "y": 26.5
+                    },
+                    "uuid": "1c4587c9-994d-4da9-b5d9-0f475a4ef7f5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

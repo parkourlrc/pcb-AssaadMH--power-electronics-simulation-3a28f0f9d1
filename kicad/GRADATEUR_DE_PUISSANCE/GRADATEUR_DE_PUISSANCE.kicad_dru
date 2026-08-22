@@ -1,0 +1,15 @@
+(version 1)
+
+# 230 V nets. IPC-2221 external-layer spacing at mains potential is
+# millimetres, not tenths; a dimmer routed at the 0.3 mm default
+# passes DRC and arcs in service.
+(rule "isolement_secteur"
+   (condition "A.NetClass == 'MAINS'")
+   (constraint clearance (min 2.50mm)))
+
+(rule "largeur_secteur"
+   (condition "A.NetClass == 'MAINS'")
+   (constraint track_width (min 1.50mm)))
+
+(rule "isolement_general"
+   (constraint clearance (min 0.30mm)))

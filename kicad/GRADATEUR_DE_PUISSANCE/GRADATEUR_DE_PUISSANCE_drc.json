@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-12T17:55:35",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "GRADATEUR_DE_PUISSANCE.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad métallisé 2 [N002] de C1",
+                    "pos": {
+                        "x": 41.684882,
+                        "y": 20.067201
+                    },
+                    "uuid": "e4cdb5ca-816c-4dd7-ad04-2cd268a4875d"
+                },
+                {
+                    "description": "Pad métallisé 2 [N002] de U1",
+                    "pos": {
+                        "x": 29.760078,
+                        "y": 19.313859
+                    },
+                    "uuid": "2bd3c11c-898e-49ef-82fc-d72db9686ce4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

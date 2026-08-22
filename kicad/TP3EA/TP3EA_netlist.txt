@@ -1,0 +1,12 @@
+NETLIST TP3EA - extrait du .pdsprj (decodage binaire, sans Proteus)
+
+composants 4   fils 9   broches 9   nets 5
+terminaux 1 -> 1 nets nommes (0 hors fil, 0 sans nom)   amperemetres court-circuites 0
+
+============================================================
+
+NET 1              ( 3)  C1-2  R2-1  U1-2
+NET 2              ( 2)  R2-2  U1-3
+NET 3              ( 2)  C1-1  R1-2
+NET 4   GND        ( 1)  U1-1
+NET 5              ( 1)  R1-1

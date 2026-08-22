@@ -1,0 +1,84 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-12T18:07:52",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "schematic_parity": [],
+    "source": "TACHYMETRE.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad métallisé 36 [N015] de U1",
+                    "pos": {
+                        "x": 56.327234,
+                        "y": 37.00733
+                    },
+                    "uuid": "76452005-60fc-400a-88c7-95c204786500"
+                },
+                {
+                    "description": "Pad métallisé 14 [N015] de LCD1",
+                    "pos": {
+                        "x": 63.611589,
+                        "y": 44.209732
+                    },
+                    "uuid": "77f1fd83-4977-4f8c-9b96-cbefc1bda7f5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Champ référence de D2",
+                    "pos": {
+                        "x": 23.021503,
+                        "y": 24.697834
+                    },
+                    "uuid": "28d437ec-65c8-427d-b0f4-859a987ecec3"
+                },
+                {
+                    "description": "Champ référence de R1",
+                    "pos": {
+                        "x": 22.223805,
+                        "y": 24.454529
+                    },
+                    "uuid": "4a443166-8ee7-4eb1-8414-293343df14a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+NETLIST GRADATEUR_DE_PUISSANCE - extrait du .pdsprj (decodage binaire, sans Proteus)
+
+composants 8   fils 14   broches 16   nets 6
+terminaux 0 -> 0 nets nommes (0 hors fil, 0 sans nom)   amperemetres court-circuites 0
+
+============================================================
+
+NET 1              ( 4)  $IOS?8-1  L1-2  R1-2  U1-1
+NET 2              ( 4)  $IOS?8-2  ALTE?3-2  C1-2  U1-2
+NET 3              ( 2)  ALTE?3-1  L1-1
+NET 4              ( 2)  D1-A  RV1-1
+NET 5              ( 2)  D1-K  U1-3
+NET 6              ( 2)  R1-1  RV1-2

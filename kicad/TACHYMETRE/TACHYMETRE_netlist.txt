@@ -1,0 +1,33 @@
+NETLIST TACHYMETRE - extrait du .pdsprj (decodage binaire, sans Proteus)
+
+composants 23   fils 86   broches 75   nets 26
+terminaux 4 -> 1 nets nommes (0 hors fil, 0 sans nom)   amperemetres court-circuites 0
+
+============================================================
+
+NET 1   GND        (14)  B2-2  BR1-1  C1-1  C2-1  LCD1-1  LCD1-10  LCD1-5  LCD1-7  LCD1-8  LCD1-9  RV1-1  RV2-3  RV3-3  RV4-3
+NET 2              ( 5)  B1-1  BR1-4  D1-1  D2-2  R6-1
+NET 3              ( 4)  B2-1  LCD1-2  R2-1  RV1-2
+NET 4              ( 3)  C1-2  U1-14  X1-1
+NET 5              ( 3)  C2-2  U1-13  X1-2
+NET 6              ( 3)  Q1-3  R1-2  RV2-2
+NET 7              ( 3)  Q2-3  R4-2  RV3-2
+NET 8              ( 3)  D1-2  D2-1  R4-1
+NET 9              ( 3)  R6-2  R7-1  RV4-2
+NET 10             ( 2)  Q1-1  U1-2
+NET 11             ( 2)  Q2-1  U1-3
+NET 12             ( 2)  R7-2  U1-4
+NET 13             ( 2)  LCD1-6  U1-38
+NET 14             ( 2)  LCD1-4  U1-37
+NET 15             ( 2)  LCD1-14  U1-36
+NET 16             ( 2)  LCD1-13  U1-35
+NET 17             ( 2)  LCD1-12  U1-34
+NET 18             ( 2)  LCD1-11  U1-33
+NET 19             ( 2)  R3-2  U1-30
+NET 20             ( 2)  R5-2  U1-29
+NET 21             ( 2)  R2-2  U1-1
+NET 22             ( 2)  LCD1-3  RV1-3
+NET 23             ( 2)  BR1-2  R1-1
+NET 24             ( 2)  B1-2  BR1-3
+NET 25             ( 2)  Q1-2  R3-1
+NET 26             ( 2)  Q2-2  R5-1
