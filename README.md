@@ -22,6 +22,10 @@ kicad/
 
 ## Notes
 
+## Documents
+
+- [`docs/gradateur-0-10V-projet-tutore.pptx`](docs/gradateur-0-10V-projet-tutore.pptx): the tutored-project defence for the **0-10 V power dimmer** (ENIG, 2024/2025), by Mahmoudi Lassaad, Omri Salim and Dhaoui Chahin. It covers the 7812 supply, the LM358 stage, the PWM power control, the simulation and the PCB. The related boards are `kicad/VARIATEUR_0_10V/` and `kicad/GRADATEUR_DE_PUISSANCE/`.
+
 ## Third-party work used here
 
 Everything in this repository is my own work. It builds on the following, which are **not** mine and are used under their own licences:
